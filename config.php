@@ -13,4 +13,7 @@ $conn = mysqli_connect($dbHost, $dbUser, $dbPassword, $dbName);
 if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
+
+// set time location
+date_default_timezone_set('Asia/Jakarta');
 ?>
