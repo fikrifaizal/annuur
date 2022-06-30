@@ -29,7 +29,7 @@ if(isset($_POST['login'])) {
   }
 }
 ?>
-    
+
 <body>
   <div class="wrapper">
     <div class="text-center mt-4 name">Masjid An-Nuur Minomartani</div>

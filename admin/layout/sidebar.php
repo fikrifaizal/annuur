@@ -18,9 +18,9 @@ $role = explode(" ", $_SESSION["role"]);
     <!-- cdn fontawesome icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
     <!-- lib datepicker -->
-    <link rel="stylesheet" href="\tpq-annuur\lib\css\bootstrap-datepicker3.min.css" />
+    <link rel="stylesheet" href="\lib\css\bootstrap-datepicker3.min.css" />
     <!-- css sidebar -->
-    <link rel="stylesheet" href="\tpq-annuur\admin\layout\sidebar.css" />
+    <link rel="stylesheet" href="\admin\layout\sidebar.css" />
   </head>
   
   <body>
@@ -54,7 +54,7 @@ $role = explode(" ", $_SESSION["role"]);
                 <a class="nav-link dropdown-toggle topbar-text" id="userDropdown" role="button"
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <span class="mr-2 d-none d-lg-inline me-2"><?= ucfirst(strtolower($name['0']))?></span>
-                  <img class="img-profile rounded-circle" src="\tpq-annuur\assets\image\user.png">
+                  <img class="img-profile rounded-circle" src="\assets\image\user.png">
                 </a>
 
                 <!-- Dropdown User Information -->
@@ -83,7 +83,7 @@ $role = explode(" ", $_SESSION["role"]);
         <nav class="navbar-light">
           <ul class="navbar-nav">
             <li>
-              <img class="logo" src="\tpq-annuur\assets\image\logo-annur-bulat.png" />
+              <img class="logo" src="\assets\image\logo-annur-bulat.png" />
               <li class="mx-4">
                 <div class="navbar-divider"></div>
                 <span class="user-info text-light"><?= ucfirst(strtolower($role['0']))?></span>
